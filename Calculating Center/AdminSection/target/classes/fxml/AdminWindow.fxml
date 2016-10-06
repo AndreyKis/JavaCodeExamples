@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="750.0" maxWidth="1255.0" minHeight="282.0" minWidth="318.0" prefHeight="473.0" prefWidth="930.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.View.AdminSection.AdminWindowController">
+   <children>
+      <Button fx:id="addUserBtn" layoutX="368.0" layoutY="239.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="393.0" text="Додати користувача" AnchorPane.leftAnchor="368.0" AnchorPane.rightAnchor="372.0" />
+      <Button fx:id="deleteUserBtn" layoutX="368.0" layoutY="324.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="393.0" text="Переглянути та редагувати користувачів" AnchorPane.leftAnchor="368.0" AnchorPane.rightAnchor="372.0" />
+      <TextField fx:id="login" layoutX="60.0" layoutY="45.0" maxWidth="400.0" minWidth="130.0" prefHeight="39.0" prefWidth="130.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="400.0" />
+      <TextField fx:id="pass" layoutX="400.0" layoutY="116.0" prefHeight="39.0" prefWidth="130.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="400.0" />
+      <Label alignment="CENTER" layoutX="60.0" prefHeight="47.0" prefWidth="810.0" text="Введіть логін нового користувача" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="60.0" layoutY="82.0" text="Введіть пароль нового користувача" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ChoiceBox fx:id="box" layoutX="390.0" layoutY="186.0" prefHeight="39.0" prefWidth="150.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="400.0" />
+      <Label alignment="CENTER" layoutX="60.0" layoutY="155.0" text="Оберіть повноваження користувача" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Line endX="1000.0" layoutX="466.0" layoutY="310.0" startX="-1000.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="goToMainPage" layoutX="368.0" layoutY="401.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="190.0" text="Перейти на головну сторінку" AnchorPane.leftAnchor="368.0" AnchorPane.rightAnchor="372.0" />
+   </children>
+</AnchorPane>

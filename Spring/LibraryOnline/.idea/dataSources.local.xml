@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - applicationproject@localhost" uuid="1f6f4fe1-9b5f-4011-a652-eec245beb38c">
+      <secret-storage>master_key</secret-storage>
+      <user-name>Andrey</user-name>
+      <schema-pattern>applicationproject.*</schema-pattern>
+      <default-schemas>applicationproject.*</default-schemas>
+    </data-source>
+    <data-source name="ApplicationJPA/Hibernate" uuid="c9c2179c-d0b0-4dcf-bd95-f439854e9740">
+      <user-name>Andrey</user-name>
+      <user-password>df9bdf9fdf9adf9edf9cdf92dfcddfccdfcddfcc</user-password>
+      <schema-pattern>applicationproject.*</schema-pattern>
+      <default-schemas>applicationproject.*</default-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anch" prefHeight="695.0" prefWidth="1367.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.View.AdminSection.DeleteUserController">
+   <children>
+      <Button fx:id="acceptChangesBtn" layoutX="298.0" layoutY="605.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="375.0" text="Підтвердити зміни" AnchorPane.leftAnchor="450.0" AnchorPane.rightAnchor="450.0" />
+      <Button fx:id="delBtn" layoutX="298.0" layoutY="527.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="375.0" text="Видалити користувача" AnchorPane.leftAnchor="450.0" AnchorPane.rightAnchor="450.0" />
+   </children>
+</AnchorPane>

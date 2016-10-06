@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchPane" prefHeight="441.0" prefWidth="549.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.View.AuthSection.ChangeServerController">
+   <children>
+      <Button fx:id="ChangeServerBtn" layoutX="19.0" layoutY="284.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="512.0" text="Підтвердити зміну сервера" />
+      <TextField fx:id="UrlTxtField" layoutX="96.0" layoutY="72.0" prefHeight="25.0" prefWidth="319.0" />
+      <TextField fx:id="UserNameTxtField" layoutX="96.0" layoutY="146.0" prefHeight="25.0" prefWidth="319.0" />
+      <TextField fx:id="UserPassTxtField" layoutX="96.0" layoutY="227.0" prefHeight="25.0" prefWidth="319.0" />
+      <Label layoutX="96.0" layoutY="26.0" prefHeight="25.0" prefWidth="226.0" text="Введіть адресу нового сервера">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="112.0" prefHeight="25.0" prefWidth="226.0" text="Введіть ім'я користувача">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="191.0" prefHeight="25.0" prefWidth="226.0" text="Введіть пароль користувача">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="EndChangeServerBtn" layoutX="19.0" layoutY="366.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="512.0" text="Завершити зміну сервера" />
+   </children>
+</AnchorPane>
